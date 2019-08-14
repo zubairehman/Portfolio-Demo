@@ -1,8 +1,8 @@
 name: portfolio
 description: A portfolio build by using flutter for web.
 # version: 1.0.0
-#homepage: https://www.example.com
-#author: zubairehman <zr@embrace-it.com>
+#homepage: http://zubair-portfolio.surge.sh/#/
+#author: zubairehman <zubairehman.work@gmail.com>
 
 environment:
   sdk: '>=2.2.0 <3.0.0'
