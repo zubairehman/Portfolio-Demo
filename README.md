@@ -15,6 +15,36 @@ Follow the links below to learn more about how to create and deploy web applicat
 
 * Flutter For Web: [A Complete Guide to Deploy a Web Application](https://medium.com/@zubairehman.work/flutter-for-web-a-complete-guide-to-deploy-a-web-application-3fa9463377a8)
 
+## How to Use 
+
+**Step 1:**
+
+Download or clone this repo by using the link below:
+
+```
+https://github.com/zubairehman/Portfolio-Demo.git
+```
+
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies: 
+
+``` 
+flutter pub get 
+```
+
+**Step 3:**
+
+To use the Flutter SDK with the flutter_web preview make sure you have upgraded Flutter to at least v1.5.4 by running flutter upgrade from your machine. Follow the link to learn more about how to configure flutter for web: https://medium.com/@zubairehman.work/flutter-for-web-c75011a41956
+
+**Step 4:**
+
+To run this application simply type in the following command:
+
+```
+flutter packages pub global run webdev serve
+```
+
 ## Folder Structure
 Here is the core folder structure which flutter provides.
 
