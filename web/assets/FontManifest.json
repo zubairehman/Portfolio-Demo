@@ -1,0 +1,42 @@
+[
+  {
+    "fonts": [
+      {
+        "asset": "fonts/MaterialIcons-Regular.ttf"
+      }
+    ],
+    "family": "MaterialIcons"
+  },
+  {
+    "fonts": [
+      {
+        "asset": "fonts/Quicksand-Regular.otf"
+      }
+    ],
+    "family": "Quicksand"
+  },
+  {
+    "fonts": [
+      {
+        "asset": "fonts/Product-Sans-Regular.ttf"
+      }
+    ],
+    "family": "ProductSans"
+  },
+  {
+    "fonts": [
+      {
+        "asset": "fonts/Nexa-Bold.otf"
+      }
+    ],
+    "family": "NexaBold"
+  },
+  {
+    "fonts": [
+      {
+        "asset": "fonts/Nexa-Light.otf"
+      }
+    ],
+    "family": "NexaLight"
+  }
+]

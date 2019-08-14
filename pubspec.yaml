@@ -1,0 +1,39 @@
+name: portfolio
+description: A portfolio build by using flutter for web.
+# version: 1.0.0
+#homepage: https://www.example.com
+#author: zubairehman <zr@embrace-it.com>
+
+environment:
+  sdk: '>=2.2.0 <3.0.0'
+
+dependencies:
+  flutter_web: any
+  flutter_web_ui: any
+
+dev_dependencies:
+  # Enables the `pub run build_runner` command
+  build_runner: ^1.6.5
+
+  # Includes the JavaScript compilers
+  build_web_compilers: ^2.1.5
+
+  # The Font Awesome Icon pack available as Flutter Icons.
+  font_awesome: any
+
+#  font_awesome_flutter: ^8.5.0
+
+# flutter_web packages are not published to pub.dartlang.org
+# These overrides tell the package tools to get them from GitHub
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
+
+flutter:
+  uses-material-design: true
